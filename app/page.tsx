@@ -1,6 +1,7 @@
 import { NewLaunchesHero } from "@/components/new-launches-hero"
 import { NewLaunchesCatalog } from "@/components/new-launches-catalog"
 import { Header } from "@/components/header"
+import { Footer } from "@/components/footer"
 
 export default function HomePage() {
   return (
@@ -8,6 +9,8 @@ export default function HomePage() {
       <Header />
       <NewLaunchesHero />
       <NewLaunchesCatalog />
+      <Footer />
     </main>
+    
   )
 }
