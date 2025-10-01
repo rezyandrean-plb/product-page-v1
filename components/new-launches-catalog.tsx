@@ -145,9 +145,15 @@ export function NewLaunchesCatalog() {
                 Discover additional luxury developments and investment opportunities
               </p>
             </div>
-            <Button size="lg" className="bg-primary hover:bg-primary/90 text-primary-foreground whitespace-nowrap">
-              View All Properties
-              <ArrowRight className="w-4 h-4 ml-2" />
+            <Button 
+              size="lg" 
+              className="bg-primary hover:bg-primary/90 text-primary-foreground whitespace-nowrap"
+              asChild
+            >
+              <a href="https://kwsg-prototype.vercel.app/projects" target="_blank" rel="noopener noreferrer">
+                View All Properties
+                <ArrowRight className="w-4 h-4 ml-2" />
+              </a>
             </Button>
           </div>
         </div>
